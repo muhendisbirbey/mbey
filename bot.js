@@ -3,7 +3,7 @@ const bot = new Discord.Client ();
 
 
 bot.on('ready', () => {
-  bot.user.setStatus('idle')
+  bot.user.setStatus('dnd')
   bot.user.setGame('Bilgisayar Başında Değilim')
 })
 
