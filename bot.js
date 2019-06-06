@@ -3,11 +3,10 @@ const bot = new Discord.Client();
 const moment = require('moment');
 const chalk = require('chalk');
 const moment = require('moment');
-const Discord = require('discord.js');
 const prefix = '!';
 
-/*bot.on('ready', () => 
-	 {bot.user.setGame('Çalışmalar devam ediyor. Twitch kanalımıza gitmek için İZLE butonuna basabilirsin :) ', 'https://www.twitch.tv/muhendisbeymuhendishanim')});
+bot.on('ready', () => 
+	// {bot.user.setGame('Çalışmalar devam ediyor. Twitch kanalımıza gitmek için İZLE butonuna basabilirsin :) ', 'https://www.twitch.tv/muhendisbeymuhendishanim')});
    
 var oyun = [
         "YouTube > Mühendis Bey ile Mühendis Hanım ",
@@ -22,7 +21,7 @@ var oyun = [
         var random = Math.floor(Math.random()*(oyun.length-0+1)+0);
 
         bot.user.setGame(oyun[random], "https://www.twitch.tv/muhendisbeymuhendishanim");
-        }, 2 * 2500);  */
+        }, 2 * 2500);  );
 
 module.exports = client => {
 var oyun = [
