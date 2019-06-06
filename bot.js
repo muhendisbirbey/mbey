@@ -10,7 +10,7 @@ var oyun = [
         "YouTube > Mühendis Bey ile Mühendis Hanım ",
         "Instagram > @muhendisbeyilemuhendishanim ",
 	"DLive.tv/muhendisbeyilhanim ",
-	"Mühendis BOT  " +client.guilds.size+ "  sunucuda  " + client.users.size +" kullanıcıya hizmet veriyor!",
+	"Mühendis BOT  " +bot.guilds.size+ "  sunucuda  " + bot.users.size +" kullanıcıya hizmet veriyor!",
 	"Çalışmalar devam ediyor. Twitch kanalımıza gitmek için İZLE butonuna basabilirsin :)"
     ];
 
