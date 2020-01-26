@@ -69,9 +69,8 @@ bot.guilds.forEach((guild) => {
         });
 	var deger = 100 ;
         var sayac = deger - count ;
-if( sayac < 0 ) {  
-while(sayac < 0){ deger = deger + 100; sayac = deger - count ; } }
-console.log(`${deger} `);
+if( sayac < 1 ) {  
+while(sayac < 1 ) { deger = deger + 100; sayac = deger - count ; } }
 const channel = member.guild.channels.find(ch => ch.name === `sohbet`);
 if (!channel) return;
 channel.send(` ${member}   aramıza katıldı! :slight_smile:  **${deger}** kişi olmamıza  **${sayac}**  kişi kaldı !     `);
