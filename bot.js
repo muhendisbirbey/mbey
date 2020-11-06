@@ -25,6 +25,11 @@ bot.on('message', message => {
 });
 
 bot.on('message', message => {
+  if (message.content === prefix + 'discord') {
+    message.reply(' Discord Linki : discord.gg/KmaDCht ');}
+});
+
+bot.on('message', message => {
   if (message.content === prefix + 'detay') {
     message.reply(bot.username + ' aktif olarak ' + bot.guilds.size +' sunucuda ' + bot.channels.size + ' Kanalda ' + bot.users.size + ' kişiye hizmet veriyor.');
   }
